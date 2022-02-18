@@ -65,13 +65,10 @@
 }
 .centerBox .heading .title {
     position: absolute;
-    /* font-size: 12rem;
-    color: #ffffff;
-    text-transform: uppercase; */
    
     top: 11rem;
     width: 100%;
-    text-align: center; */
+    text-align: center;
     text-align: center;
     width: 100%;
 }
