@@ -1,0 +1,173 @@
+.app {
+    position: relative;
+    background-image: url('./assets//images/bg.svg');
+    min-height: 100vh;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* padding: 3.6rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.link {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: babas-neue;
+    margin-left: 4.2rem;
+    height: 10vh;
+    line-height: 10vh;
+}
+.link:hover{
+    color: #fff;
+}
+
+.centerBox{
+    min-height: 70rem;
+}
+.centerBox .heading{
+    /* position: relative; */
+    height: 30rem;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.centerBox .heading .bg_text {
+    position: relative;
+    /* font-size: 29rem; */
+    width: 100%;
+    /* text-align: center; */
+    /* color: rgba(255, 255, 255, 0.65); */
+    
+    /* background-image: url('../src/assets/images/MEKA_WHITE_BG.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* opacity: 0.8; */
+}
+.centerBox .heading .bg_text .firstIMG{
+    mix-blend-mode: soft-light;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+.centerBox .heading .bg_text .secondIMG{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate3d(-50%,35%,0) ;
+    z-index: 1;
+    mix-blend-mode: normal;
+}
+.centerBox .heading .title {
+    position: absolute;
+    /* font-size: 12rem;
+    color: #ffffff;
+    text-transform: uppercase; */
+   
+    top: 11rem;
+    width: 100%;
+    text-align: center; */
+    text-align: center;
+    width: 100%;
+}
+.centerBox .heading .title img{
+    width: 60%;
+}
+
+
+.centerBox .container {
+    margin-top: 5rem;
+    text-align: center;
+    z-index: 1111;
+}
+
+.centerBox .container .bttn_sec {
+    margin-top: 3rem;
+    margin-bottom:100px;
+}
+
+.centerBox .container .join {
+    font-size: 2.4rem;
+    color: #fff;
+    font-family: poppins;
+}
+
+.centerBox .container .bttn {
+    margin-top: 2rem;
+    width: 20.1rem;
+    height: 5.7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-size: 2.4rem;
+    font-family: poppins-bold;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff
+}
+.centerBox .container .bttn:hover {
+    color: #000;
+    border: 2px solid transparent;
+    background-color: #ffffff;
+}
+
+.footer{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer .row {
+    justify-content: center;
+
+}
+
+.footer .icons {
+    font-size: 3rem;
+    color: #fff;
+    width: max-content;
+    cursor: pointer;
+}
+
+
+.footer .desc {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px;;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+/* @media only screen and (max-width: 768px){
+.heading .bg_text {
+    font-size: 20rem;
+}
+.heading .title{
+    font-size: 10rem;
+    top: 6rem;
+}
+}  */
+@media only screen and (max-width: 428px){
+.centerBox .heading{
+    height: 12rem;;
+}
+.heading .bg_text{
+    font-size: 12rem;
+    
+}
+.heading .title{
+    font-size: 6rem;
+    top: 4rem;
+}
+.bttn_sec{
+    margin-top: 20px;
+}
+}
